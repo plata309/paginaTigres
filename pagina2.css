@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 1500px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to left, #2c2c2cd0, #e69807);
+}
+
+.contenedorf {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px black;
+    text-align: center;
+  }
+  
+  .contenedorf img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contenedorf h1 {
+    font-size: calc(5em + 1vw);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contenedorf p {
+    font-size: calc(1em + 1vw);
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor .tarje{
+    width: 330px;
+    height: 550px;
+    border-radius: 8px;                                        
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.contenedor .tarje img{
+    width: 330px;
+    height: 220px;
+}
+
+.contenedor .tarje h4{
+    font-weight: calc(4em + 1vw);
+}
+
+.contenedor .tarje p{
+    padding: 0 1rem;
+    font-size: calc(0.5em + 0.5vw);
+    font-weight: 300;
+    text-align: justify
+}
+
+a {
+  box-shadow: 3px 4px 0px 0px #2c2c2c;
+  background: linear-gradient(to bottom, #e69807 5%, #2c2c2c 100%);
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size:35px;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+a:hover {
+  background: linear-gradient(to bottom, #2c2c2c 5%, #e69807 100%);
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: error402.html
+Disallow: index.css
